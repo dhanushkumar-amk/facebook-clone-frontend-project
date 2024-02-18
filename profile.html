@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Profile page on facebook clone</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+
+    <!--  -->
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+
+    <!--  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <script
+      src="script.js"
+      defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img
+          src="./images/logo.png"
+          alt="logo image"
+          class="logo" />
+        <ul>
+          <li>
+            <img
+              src="./images/notification.png"
+              alt="notification__icon" />
+            <img
+              src="./images/inbox.png"
+              alt="inbox__icon" />
+            <img
+              src="./images/video.png"
+              alt="video__icon" />
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img
+            src="./images/search.png"
+            alt="Search icon" />
+          <input
+            type="text"
+            placeholder="Search" />
+        </div>
+
+        <div
+          class="nav__user-icon online"
+          onclick="settingsMenuToggle()">
+          <img
+            src="./images/profile-pic.png"
+            alt="user icon" />
+        </div>
+      </div>
+
+      <!-- --------------------------- -->
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="setting-menu-inner">
+          <div class="user-profile">
+            <img
+              src="./images/profile-pic.png"
+              alt="user icon" />
+            <div>
+              <p>Jack</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="user-profile">
+            <img
+              src="./images/feedback.png"
+              alt="user icon" />
+            <div>
+              <p>GIve Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="setting-links">
+            <img
+              src="./images/setting.png"
+              alt="setting icon"
+              class="setting-icon" />
+            <a href="#">
+              Settings & Privacy
+              <img
+                src="images/arrow.png"
+                width="10px"
+                alt="" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img
+              src="./images/help.png"
+              alt="setting icon"
+              class="setting-icon" />
+            <a href="#">
+              Help & Support
+              <img
+                src="images/arrow.png"
+                width="10px"
+                alt="" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img
+              src="./images/display.png"
+              alt="setting icon"
+              class="setting-icon" />
+            <a href="#">
+              Display & Accessibility
+              <img
+                src="images/arrow.png"
+                width="10px"
+                alt="" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img
+              src="./images/logout.png"
+              alt="setting icon"
+              class="setting-icon" />
+            <a href="#">
+              Logout
+              <img
+                src="images/arrow.png"
+                width="10px"
+                alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- profile page -->
+    <div class="profile-container">
+      <img
+        src="images/cover.png"
+        alt="cover image"
+        class="cover-img" />
+      <div class="profile-details">
+        <div class="pd-left">
+          <div class="pd-row">
+            <img
+              src="./images/profile.png"
+              alt="profile image"
+              class="pd-image" />
+            <div>
+              <h3>Jack</h3>
+              <p>120 Friends - 20 mutual</p>
+
+              <img
+                src="images/member-1.png"
+                alt="member" />
+              <img
+                src="images/member-2.png"
+                alt="member" />
+              <img
+                src="images/member-3.png"
+                alt="member" />
+              <img
+                src="images/member-4.png"
+                alt="member" />
+            </div>
+          </div>
+        </div>
+        <div class="pd-right">
+          <button type="button">
+            <img
+              src="images/add-friends.png"
+              alt="icon" />
+            Friend
+          </button>
+          <button type="button">
+            <img
+              src="images/message.png"
+              alt="icon" />
+            Message
+          </button>
+          <br />
+          <a href="#">
+            <img
+              src="images/more.png"
+              alt="more icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2024 - VisioVibe . All rights reserved</p>
+    </div>
+  </body>
+</html>

@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -62,7 +61,9 @@
             placeholder="Search" />
         </div>
 
-        <div class="nav__user-icon online">
+        <div
+          class="nav__user-icon online"
+          onclick="settingsMenuToggle()">
           <img
             src="./images/profile-pic.png"
             alt="user icon" />
@@ -71,13 +72,84 @@
 
       <!-- --------------------------- -->
       <div class="settings-menu">
-        <div class="user-profile">
-          <img
-            src="./images/profile-pic.png"
-            alt="user icon" />
-          <div>
-            <p>Jack</p>
-            <a href="#">See your profile</a>
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="setting-menu-inner">
+          <div class="user-profile">
+            <img
+              src="./images/profile-pic.png"
+              alt="user icon" />
+            <div>
+              <p>Jack</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="user-profile">
+            <img
+              src="./images/feedback.png"
+              alt="user icon" />
+            <div>
+              <p>GIve Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="setting-links">
+            <img
+              src="./images/setting.png"
+              alt="setting icon"
+              class="setting-icon" />
+            <a href="#">
+              Settings & Privacy
+              <img
+                src="images/arrow.png"
+                width="10px"
+                alt="" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img
+              src="./images/help.png"
+              alt="setting icon"
+              class="setting-icon" />
+            <a href="#">
+              Help & Support
+              <img
+                src="images/arrow.png"
+                width="10px"
+                alt="" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img
+              src="./images/display.png"
+              alt="setting icon"
+              class="setting-icon" />
+            <a href="#">
+              Display & Accessibility
+              <img
+                src="images/arrow.png"
+                width="10px"
+                alt="" />
+            </a>
+          </div>
+          <div class="setting-links">
+            <img
+              src="./images/logout.png"
+              alt="setting icon"
+              class="setting-icon" />
+            <a href="#">
+              Logout
+              <img
+                src="images/arrow.png"
+                width="10px"
+                alt="" />
+            </a>
           </div>
         </div>
       </div>
